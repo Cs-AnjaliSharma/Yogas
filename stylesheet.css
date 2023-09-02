@@ -1,0 +1,377 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+		list-style-type: none;
+
+}
+.header{
+	background: #dc3545;
+}
+.navbar{
+	padding-top: 20px !important;
+	color: #fff;
+}
+.bg-primary{
+	background: #dc3545;
+}
+.nav-item{
+	margin-left: 40px;
+	margin-bottom: 10px;
+
+}
+.nav-link{
+	color: #fff!important;
+	font-size: 12px !important;
+	padding: 0 0 5px 0 !important;
+	display: unset !important;	
+	}
+.navbar-brand img{
+	width: 125px;
+	text-align: right;
+
+}
+.fa-bars{
+	color: #000000 ;
+	font-size: 40px !important;
+}
+.navbar-toggler{
+	border: 0 !important; 
+	outline: none !important;
+	padding: initial !important;
+}
+.active-home{
+	border-bottom:2px solid #fff; 
+}
+.nav-link:hover{
+	border-bottom: 2px solid #fff;
+}
+.banner{
+	margin-top: 8%;
+	color: #fff;
+
+}
+.banner h1{
+	margin: 80px 0 50px;
+	font-weight: 600;
+	font-size: 50px;
+}
+.banner img{
+	max-height: 500px;
+}
+.banner a{
+	padding: 12px;
+	width: 150px;
+	display:inline-block;
+	background: #dc3545;
+	text-decoration: none !important;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 14px;
+}
+.banner a:hover{
+	color: #fff;
+
+}
+.express-btn{
+	background: #fff !important;
+	color: #000 !important;
+	margin-right: 5px;
+
+}
+.service{
+	margin: 75px 0;
+
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+
+}
+.sub-title{
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 70px;
+	
+}
+
+.service-box{
+	padding: 0 35px;
+	cursore:pointer;
+	margin-bottom: 45px;
+	transition: .4s;
+}
+.service-box img{
+	width: 60px;
+	margin-top: 65px;
+	margin-bottom: 45px;
+}
+.service-box h6{
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.service-box p{
+	font-size: 14px;
+	color: #777;
+}
+.fa-arrow-right{
+	font-size: 22px !important;
+	margin-top: 30px;
+	margin-bottom: 35px;
+	cursor: pointer;
+}
+.service-box:hover,.active-service{
+	background: #dc3545;
+	border-radius: 5px;
+	color: #fff !important;
+	box-shadow: 0 15px 15px 2px rgba(213, 213, 213, 0.5);
+}
+.service-box:hover p{
+	color: #fff !important;
+
+}
+.active-service p{
+	color: #fff !important;
+
+}
+.feature{
+	
+	padding:100px 0 ;
+
+}
+.feature img{
+	width: 100%;
+	cursor: pointer;
+}
+.feature h2{
+	margin-top: 100px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.feature p,.explore p{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	color: #808080;
+	font-size: 14px;
+	line-height: 18px;
+}
+.feature a, {
+	width: 170px;
+	padding: 15px 10px;
+	display: block;
+	background: #dc3545;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 5.0);
+}
+.explore a{
+	width: 170px;
+	padding: 15px 10px;
+	display: block;
+	background: #dc3545;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 5.0);
+}
+
+.feature h2{
+	margin-top: 50px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.explore a{
+	margin-bottom: 50px;
+}
+
+
+.carousel-item img{
+	width: 150px;
+	border-radius: 50%;
+	color: #000;
+	display: block;
+	margin: auto;
+
+}
+
+.review{
+	position: relative;
+	padding: 80px 0;
+	background: #dc3545;
+}
+
+.caption{
+	position: relative;
+	background: #fff;
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow:  2px 2px 20px #000;
+	
+}
+.caption h6{
+	margin-top: 10px;
+	font-weight: bold;
+	color: #000 !important;
+}
+.caption small{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: block;
+    color: #000 !important;
+}
+.caption p{
+	text-align: center;
+	padding: 0 50;
+	font-size: 15px;
+    color: #808080 !important;
+}
+
+@media only screen and (max-width:800px){
+	.carousel-item{
+		height: 520px;
+
+	}
+	.caption{
+		
+		left: 0;
+		right: 0;
+	}
+
+}
+
+
+.footer{
+	background: #000;
+	padding-top:5px;
+	padding-bottom: 40px
+
+}
+.footer h2{
+	color: #fff;
+	font-weight: 600;
+	margin: 70px 0;
+}
+.footer input {
+	width: 60%;
+	background: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+}
+::placeholder{
+	color: #efefef;
+	font-size: 13px;
+
+}
+.footer button{
+	padding: 6px;
+	width: 195px;
+	margin: auto;
+	display: block;
+	color: #fff;
+	border: 1px solid #fff;
+	font-size: 20px;
+	background: transparent;
+}
+.explore{
+	padding: 100px 0;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #93111e; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #000; /* Add a dark-grey background on hover */
+}
+
+
+/*.tech{
+	width: 50%;
+  height: auto
+  position: relative;
+
+	
+}
+.my-custom-links{
+	position: absolute;
+	 transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+
+.img-play-box{
+	position: relative; 
+}
+
+
+.my-video{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.fa-play{
+	border-radius:50px;
+	background-color: #5ebf57;
+	border: 1px solid #5ebf57;
+	color: #000000;
+	width: 150%;
+	font-size: 29px;
+
+}
+.team{
+	width:250px;
+    padding: 15px 10px;
+    display: block;
+    background: #dc3545;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 5.0);
+  /* Add a mouse pointer on hover */
+  
+}
+.team a{
+	text-decoration: none;
+}
+.team:hover{
+	color: #fff;
+}
+	
+
+
